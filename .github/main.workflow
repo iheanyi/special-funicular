@@ -3,7 +3,7 @@ workflow "push" {
   resolves = "do a thing"
 }
 
-workflow "pr" {
+workflow "pr debug" {
   on = "pull_request"
   resolves = "do a thing"
 }
